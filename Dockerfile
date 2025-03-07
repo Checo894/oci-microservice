@@ -4,4 +4,4 @@ COPY /target/*.jar oci-microservice--a01068505.jar
 COPY /src/main/resources/Wallet_ociDatabase /oci-microservice-a01068505/Wallet_ociDatabase
 ENV TNS_ADMIN=/oci-microservice-a01068505/Wallet_ociDatabase
 EXPOSE 8080
-ENTRYPOINT [ "java", "-jar", "oci-microservice-0.0.1-SNAPSHOT.jar" ]
+ENTRYPOINT [ "java", "-jar", "oci-microservice.jar" ]
